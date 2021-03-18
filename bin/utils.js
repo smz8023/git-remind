@@ -76,6 +76,7 @@ exports.gitFn = {
                 if (err) reject();
                 else {
                     if (res.branches[branch]) {
+                        console.log('我在这里打印以下',res);
                         resolve(res.branches[branch]);
                     } else {
                         reject(res.branches[branch]);

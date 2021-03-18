@@ -29,6 +29,7 @@ async function main() {
         return isOk;
     }
     const fetchContent = await gitFn.fetch();
+    console.log('fetchContent',fetchContent);
     if (fetchContent.raw) {
         console.log(fetchContent.raw);
         log('green', ['√', `  ${num++}.fetch success!`]);
