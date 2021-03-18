@@ -83,7 +83,7 @@ async function main() {
                     isOk = true;
                 })
                 .catch((err) => {
-                    console.log('请先提交本地更改');
+                    console.log('请先提交本地更改!!!');
                 });
                 if (res && res.conflicts.length) {
                     log('red', [`${currentBranch}分支出现冲突，请先处理`]);
