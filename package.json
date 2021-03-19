@@ -1,7 +1,7 @@
 {
-    "name": "git-remind",
-    "version": "1.0.4",
-    "description": "检查git分支之间的关系是否正确",
+    "name": "git-check",
+    "version": "0.0.1",
+    "description": "检查本地分支是否于主分支一致",
     "main": "index.js",
     "scripts": {
         "test": "node ./bin/git-verification.js -b 'node -v'",
@@ -16,7 +16,7 @@
     "files": [
         "/bin/"
     ],
-    "author": "yangkaixuan",
+    "author": "shaomingzhen",
     "license": "ISC",
     "dependencies": {
         "commander": "^5.0.0",
